@@ -69,7 +69,7 @@ With the prerequisites out of the way, you're ready to build and deploy.
 Configure Maven
 ---------------
 
-If you have not yet done so, you must [Configure Maven](../README.md#configure-maven) before testing the quickstarts.
+If you have not yet done so, you must [Configure Maven](https://github.com/jboss-developer/jboss-wfk-quickstarts#configure-maven) before testing the quickstarts.
 
 
 Start the JBoss EAP Server
@@ -179,7 +179,7 @@ To run these tests, you must build the main project as described above.
 
 5. If you prefer to run the functional tests using managed instance of the JBoss EAP server, meaning the tests will start the server for you, type the following command:
 
-_NOTE: For this to work, Arquillian needs to know the location of the JBoss EAP server. This can be declared through the `JBOSS_HOME` environment variable or the `jbossHome` property in `arquillian.xml`. See [Run the Arquillian Tests](../README.md#run-the-arquillian-tests) for complete instructions and additional options._
+_NOTE: For this to work, Arquillian needs to know the location of the JBoss EAP server. This can be declared through the `JBOSS_HOME` environment variable or the `jbossHome` property in `arquillian.xml`. See [Run the Arquillian Tests](https://github.com/jboss-developer/jboss-wfk-quickstarts#run-the-arquillian-tests) for complete instructions and additional options._
 
         mvn clean verify -Parq-jbossas-managed
 
@@ -189,7 +189,7 @@ Run the Quickstart in JBoss Developer Studio or Eclipse
 -------------------------------------
 
 You can also start the server and deploy the quickstarts from Eclipse using JBoss tools. For more information, 
-see [Use JBoss Developer Studio or Eclipse to Run the Quickstarts](../README.md#use-jboss-developer-studio-or-eclipse-to-run-the-quickstarts) 
+see [Use JBoss Developer Studio or Eclipse to Run the Quickstarts](https://github.com/jboss-developer/jboss-wfk-quickstarts#use-jboss-developer-studio-or-eclipse-to-run-the-quickstarts) 
 
 
 ### Deploying to OpenShift

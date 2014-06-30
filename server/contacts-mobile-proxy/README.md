@@ -33,7 +33,7 @@ With the prerequisites out of the way, you're ready to build and deploy.
 Configure Maven
 ---------------
 
-If you have not yet done so, you must [Configure Maven](../README.md#configure-maven) before testing the quickstarts.
+If you have not yet done so, you must [Configure Maven](https://github.com/jboss-developer/jboss-wfk-quickstarts#configure-maven) before testing the quickstarts.
 
 
 Start the JBoss EAP Server
@@ -155,7 +155,7 @@ Run the Quickstart in JBoss Developer Studio or Eclipse
 -------------------------------------
 
 You can also start the server and deploy the quickstarts from Eclipse using JBoss tools. For more information, 
-see [Use JBoss Developer Studio or Eclipse to Run the Quickstarts](../README.md#use-jboss-developer-studio-or-eclipse-to-run-the-quickstarts) 
+see [Use JBoss Developer Studio or Eclipse to Run the Quickstarts](https://github.com/jboss-developer/jboss-wfk-quickstarts#use-jboss-developer-studio-or-eclipse-to-run-the-quickstarts) 
 
 
 ### Deploying to OpenShift
