@@ -21,7 +21,7 @@ angular.module('quickstart.controllers', [])
 .controller('ContactsCtrl', function ($scope, contacts) {
   $scope.details = false;
   $scope.showDelete = false;
-  $scope.refresh = function() {
+  $scope.refresh = function () {
     contacts.query({}, function (data) {
       var first,
         length = data.length;
@@ -35,12 +35,12 @@ angular.module('quickstart.controllers', [])
 
         $scope.groupedContacts[first].push(data[i]);
       }
-    });    
+    });
   };
   $scope.refresh();
   $scope.$on('refresh', $scope.refresh);
-  $scope.delete = function (contact) {
-    contacts.delete({
+  $scope.deleteContact = function (contact) {
+    contacts.deleteContact({
       id: contact.id
     }, function () {
       removeContact(contact);
@@ -51,14 +51,14 @@ angular.module('quickstart.controllers', [])
       }
     });
   };
-  
+
   function removeContact(contact) {
-      var letter = contact.firstName.substring(0, 1).toUpperCase();
-      $scope.groupedContacts[letter].splice($scope.groupedContacts[letter].indexOf(contact), 1);
-      if ($scope.groupedContacts[letter].length === 0) {
-        delete $scope.groupedContacts[letter];
-      }
-      $scope.showDelete = false;
+    var letter = contact.firstName.substring(0, 1).toUpperCase();
+    $scope.groupedContacts[letter].splice($scope.groupedContacts[letter].indexOf(contact), 1);
+    if ($scope.groupedContacts[letter].length === 0) {
+      delete $scope.groupedContacts[letter];
+    }
+    $scope.showDelete = false;
   }
 })
 
@@ -71,14 +71,14 @@ angular.module('quickstart.controllers', [])
     });
   }
   var form;
-  $scope.setFormScope= function(scope) {
+  $scope.setFormScope = function (scope) {
     form = scope;
   };
-  
-  $scope.clearErrors = function(field) {
+
+  $scope.clearErrors = function (field) {
     form.form[field].$setValidity('server', true);
   };
-  
+
   $scope.save = function (contact) {
     if ($stateParams.id) {
       contacts.update(contact, onSuccess, onFailure);
@@ -89,13 +89,13 @@ angular.module('quickstart.controllers', [])
     function onSuccess() {
       $location.url('/app/contacts');
     }
-    
+
     function onFailure(response) {
-      angular.forEach(response.data, function(error, key) {
+      angular.forEach(response.data, function (error, key) {
         form.form[key].$dirty = true;
         form.form[key].$setValidity('server', false);
         form.form[key].error = error;
-      });    
+      });
     }
   };
 })
@@ -142,7 +142,7 @@ angular.module('quickstart.controllers', [])
       }
     }
   }
-  
+
   $scope.login = function (user) {
     authz.setCredentials(user.name, user.password);
     users.login({}, function () {
@@ -161,7 +161,7 @@ angular.module('quickstart.controllers', [])
     });
   };
 
-  $scope.dismissAlert = function(id) {
+  $scope.dismissAlert = function (id) {
     delete $scope.notification;
     if (id) {
       $location.url('/app/contact/' + id);
