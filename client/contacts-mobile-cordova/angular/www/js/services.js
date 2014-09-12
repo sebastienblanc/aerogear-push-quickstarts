@@ -74,7 +74,7 @@ backend.factory('contacts', function ($resource, BACKEND_URL) {
       isArray: true,
       timeout: 4000
     },
-    delete: {
+    deleteContact: {
       method: 'DELETE'
     },
     update: {
