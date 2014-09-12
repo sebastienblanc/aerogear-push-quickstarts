@@ -104,11 +104,11 @@ angular.module('quickstart.controllers', [])
   function registerWithUPS() {
     var pushConfig = {
       pushServerURL: "<pushServerURL e.g http(s)//host:port/context >",
-       android: {
+      android: {
         senderID: "<senderID e.g Google Project ID only for android>",
         variantID: "<variantID e.g. 1234456-234320>",
         variantSecret: "<variantSecret e.g. 1234456-234320>"
-       },
+      },
       ios: {
         variantID: "<variantID e.g. 1234456-234320>",
         variantSecret: "<variantSecret e.g. 1234456-234320>"
