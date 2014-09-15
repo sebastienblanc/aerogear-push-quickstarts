@@ -138,7 +138,7 @@ angular.module('quickstart.controllers', [])
           push.setContentAvailable(push.FetchResult.NewData);
         }
       } else {
-        $scope.$broadcast('notification', event);
+        $rootScope.$broadcast('notification', event);
       }
     }
   }
