@@ -70,9 +70,6 @@ public class ContactRESTService {
     @RequiresAccount
     public Response retrieveAllContacts() {
         List<Contact> contacts = service.findAllOrderedByName();
-        if (contacts.isEmpty()) {
-            throw new WebApplicationException(Response.Status.NOT_FOUND);
-        }
         return Response.ok(contacts).build();
     }
 
