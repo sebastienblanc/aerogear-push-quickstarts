@@ -60,9 +60,9 @@ Install platforms
 cordova platform add ios android
 ```
 
-Add the plugin
+Restore the plugins
 ```
-cordova plugin add org.jboss.aerogear.cordova.push
+cordova --experimental restore plugins
 ```
 
 Run the application on a device
