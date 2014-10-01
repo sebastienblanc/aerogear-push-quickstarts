@@ -1,11 +1,11 @@
 cordova: CRUD contact Mobile Application showing the AeroGear Push feature 
 ==========================================================================
-Author: Erik Jan de Wit (edewit)
-Level: Beginner
-Technologies: JavaScript Cordova              
-Summary: A crud mobile app with push integrated       
+Author: Erik Jan de Wit (edewit)   
+Level: Beginner   
+Technologies: JavaScript Cordova   
+Summary: A crud mobile app with push integrated   
 Target Product: Mobile  
-Product Version: MP 1.0
+Product Version: MP 1.0   
 Source: https://github.com/aerogear/aerogear-push-quickstarts/
 
 What is it?

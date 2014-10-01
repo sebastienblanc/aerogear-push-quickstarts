@@ -1,11 +1,11 @@
 quickstart-push-ios: CRUD Mobile Application showing the AeroGear Push feature on iOS
-==========================================================================================
-Author: Christos Vasilakis (cvasilak)
-Level: Beginner
-Technologies: Objective-C, iOS
-Summary: A Contacts CRUD mobile application with Push notification integration.
-Target Product: Mobile
-Product Version: MP 1.0
+=====================================================================================
+Author: Christos Vasilakis (cvasilak)   
+Level: Beginner   
+Technologies: Objective-C, iOS   
+Summary: A Contacts CRUD mobile application with Push notification integration.   
+Target Product: Mobile   
+Product Version: MP 1.0   
 Source: https://github.com/aerogear/aerogear-push-quickstarts/tree/master/client/contacts-mobile-ios-client
 
 What is it?

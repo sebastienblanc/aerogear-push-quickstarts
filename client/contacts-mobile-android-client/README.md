@@ -1,10 +1,10 @@
 # quickstart-push-android: CRUD Mobile Application showing the AeroGear Push feature on Android
 
-Author: Daniel Passos (dpassos)
-Level: Beginner
-Technologies: Java, Android
-Summary: A Contacts CRUD mobile application with Push notification integration.
-Target Product: Mobile
+Author: Daniel Passos (dpassos)   
+Level: Beginner   
+Technologies: Java, Android   
+Summary: A Contacts CRUD mobile application with Push notification integration.   
+Target Product: Mobile   
 Product Version: MP 1.0
 
 ## What is it?

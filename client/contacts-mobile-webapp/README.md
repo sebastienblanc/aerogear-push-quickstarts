@@ -1,11 +1,11 @@
 contacts-mobile-webapp: Example Application Using Multiple HTML5, Mobile
-=========================================================================================================
-Author: Joshua Wilson
-Level: Beginner
-Technologies: jQuery Mobile, jQuery, JavaScript, HTML5, REST
-Summary: A basic example of CRUD operations in a mobile only website.
-Target Product: AeroGear
-Product Version: MP 1.0
+========================================================================
+Author: Joshua Wilson   
+Level: Beginner   
+Technologies: jQuery Mobile, jQuery, JavaScript, HTML5, REST   
+Summary: A basic example of CRUD operations in a mobile only website.   
+Target Product: AeroGear   
+Product Version: MP 1.0   
 Source: <https://github.com/aerogear/aerogear-push-quickstarts/tree/master/client/contacts-mobile-webapp>
 
 What is it?

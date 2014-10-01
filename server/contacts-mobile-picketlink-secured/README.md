@@ -1,11 +1,11 @@
 contacts-mobile-picketlink-secured: Example Application JAX-RS Technologies & Push
-=========================================================================================================
-Author: Joshua Wilson, Pedro Igor, Erik Jan De Wit, Daniel Bevenius
-Level: Beginner
-Technologies: REST, UnifiedPush Java Client, PicketLink
-Summary: A PicketLink secured example of CRUD REST endpoints.
-Target Product: MP
-Product Version: MP 1.0
+==================================================================================
+Author: Joshua Wilson, Pedro Igor, Erik Jan De Wit, Daniel Bevenius   
+Level: Beginner   
+Technologies: REST, UnifiedPush Java Client, PicketLink   
+Summary: A PicketLink secured example of CRUD REST endpoints.   
+Target Product: MP   
+Product Version: MP 1.0   
 Source: <https://github.com/aerogear/aerogear-push-quickstarts/tree/master/server/contacts-mobile-picketlink-secured>
 
 What is it?

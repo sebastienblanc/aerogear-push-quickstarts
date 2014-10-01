@@ -1,11 +1,11 @@
 contacts-mobile-proxy: Example Application Using JAX-RS Technologies
-=========================================================================================================
-Author: Daniel Bevenius
-Level: Beginner
-Technologies: REST
-Summary: A basic example of CRUD operations that are proxied to a backend system.
-Target Product: AeroGear
-Product Versions: EAP 6.1, EAP 6.2
+====================================================================
+Author: Daniel Bevenius   
+Level: Beginner   
+Technologies: REST   
+Summary: A basic example of CRUD operations that are proxied to a backend system.   
+Target Product: AeroGear   
+Product Versions: EAP 6.1, EAP 6.2   
 Source: <https://github.com/aerogear/aerogear-push-quickstarts/tree/master/server/contacts-mobile-proxy>
 
 What is it?
