@@ -5,7 +5,8 @@ Level: Beginner
 Technologies: Java, Android   
 Summary: A Contacts CRUD mobile application with Push notification integration.   
 Target Product: Mobile   
-Product Version: MP 1.0
+Product Version: MP 1.0   
+Source: https://github.com/aerogear/aerogear-push-quickstarts/tree/master/client/contacts-mobile-android-client
 
 ## What is it?
 

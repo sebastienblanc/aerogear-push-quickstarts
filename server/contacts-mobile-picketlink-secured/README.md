@@ -6,7 +6,7 @@ Technologies: REST, UnifiedPush Java Client, PicketLink
 Summary: A PicketLink secured example of CRUD REST endpoints.   
 Target Product: MP   
 Product Version: MP 1.0   
-Source: <https://github.com/aerogear/aerogear-push-quickstarts/tree/master/server/contacts-mobile-picketlink-secured>
+Source: https://github.com/aerogear/aerogear-push-quickstarts/tree/master/server/contacts-mobile-picketlink-secured
 
 What is it?
 -----------

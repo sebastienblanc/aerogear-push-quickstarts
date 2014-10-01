@@ -6,7 +6,7 @@ Technologies: JavaScript Cordova
 Summary: A crud mobile app with push integrated   
 Target Product: Mobile  
 Product Version: MP 1.0   
-Source: https://github.com/aerogear/aerogear-push-quickstarts/
+Source: https://github.com/aerogear/aerogear-push-quickstarts/tree/master/client/contacts-mobile-cordova
 
 What is it?
 -----------
