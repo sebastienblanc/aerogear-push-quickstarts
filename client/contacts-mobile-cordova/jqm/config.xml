@@ -29,6 +29,8 @@
     <!-- enable restore -->
     <feature name="AeroGear PushPlugin">
 		  <param name="id" value="org.jboss.aerogear.cordova.push" />
-	  </feature>
-
+    </feature>
+    <feature name="StatusBar">
+        <param name="id" value="org.apache.cordova.statusbar" />
+    </feature>
 </widget>
