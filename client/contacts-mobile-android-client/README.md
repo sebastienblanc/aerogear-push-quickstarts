@@ -87,7 +87,7 @@ cd $PWD/maven-android-sdk-deployer/extras/compatibility-v7-appcompat
 mvn install -N --quiet
 ```
 
-## Debug the Application
+## How do I run it?
 
 ```
 mvn clean package android:deploy android:run
