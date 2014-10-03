@@ -82,7 +82,7 @@ FAQ
 
 
 
-Run the HelloWorld in JBoss Developer Studio or Eclipse
+Run the Quickstart in JBoss Developer Studio or Eclipse
 -------------------------------------------------------
 
 - Import the generated project into JBDS
