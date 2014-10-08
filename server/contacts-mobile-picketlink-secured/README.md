@@ -81,6 +81,9 @@ Build and Deploy the Quickstart
 
 Access the application
 ----------------------
+The backend application will be deployed with the following context:
+
+    http://localhost:8080/jboss-contacts-mobile-picketlink-secured
 
 This backend application is used by multiple clients, one of the being the [contacts-mobile-webapp](../../client/contacts-mobile-webapp).
 Please follow the ```Build and Deploy the Quickstart``` instructions in [contacts-mobile-webapp](../../client/contacts-mobile-webapp)
