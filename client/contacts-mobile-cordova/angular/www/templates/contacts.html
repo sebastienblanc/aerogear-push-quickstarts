@@ -5,38 +5,27 @@
         <input type="text" placeholder="Search" ng-model="search">
       </label>
     </div>
-    <ion-list show-delete="showDelete">
+    <ion-refresher pulling-text="Pull to refresh..." on-refresh="refresh()">
+    </ion-refresher>
 
+    <ion-list>
       <ion-item class="item-divider" ng-repeat-start="(letter, contacts) in groupedContacts">
         {{letter}}
       </ion-item>
 
-      <ion-item href="#/app/contact/{{contact.id}}" ng-repeat="contact in contacts | filter:search">
+      <ion-item href="#/app/profile/{{contact.id}}" ng-repeat="contact in contacts | filter:search">
         {{contact.firstName}} <strong>{{contact.lastName}}</strong>
         <small>{{contact.email}}</small>
-        <ul ng-show="details" class="contact-details">
-          <li class="item item-icon-right">
-            <i class="icon ion-email"></i>
-            {{contact.email}}
-          </li>
-          <li class="item item-icon-right">
-            <i class="icon ion-ios7-telephone"></i>
-            {{contact.phoneNumber}}
-          </li>
-          <li class="item item-icon-right">
-            <i class="icon ion-calendar"></i>
-            {{contact.birthDate}}
-          </li>
-        </ul>
-        <ion-delete-button class="ion-minus-circled" ng-click="deleteContact(contact)">
-        </ion-delete-button>
+        <ion-option-button class="button-info" ng-click="deleteContact(contact)" style="padding-top: 15px;">
+          <i class="icon ion-trash-b"></i>
+        </ion-option-button>
       </ion-item>
 
       <div ng-repeat-end></div>
-      
+
     </ion-list>
   </ion-content>
-  <a class="floating-btn" href="#/app/contact/" >
+  <a class="floating-btn" href="#/app/contact/">
     <i class="icon ion-plus"></i>
   </a>
 </ion-view>

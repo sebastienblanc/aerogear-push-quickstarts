@@ -19,8 +19,6 @@
 angular.module('quickstart.controllers', [])
 
 .controller('ContactsCtrl', function ($scope, contacts) {
-  $scope.details = false;
-  $scope.showDelete = false;
   $scope.refresh = function () {
     contacts.query({}, function (data) {
       var first,
@@ -34,6 +32,7 @@ angular.module('quickstart.controllers', [])
         }
 
         $scope.groupedContacts[first].push(data[i]);
+        $scope.$broadcast('scroll.refreshComplete');
       }
     });
   };

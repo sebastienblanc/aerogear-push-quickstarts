@@ -1,0 +1,31 @@
+<ion-view title="Profile" hide-back-button="true">
+  <ion-nav-buttons side="right">
+    <a href="#/app/contact/{{model.id}}" class="button button-clear button-light" >Edit</a>
+  </ion-nav-buttons>
+  
+  <ion-content class="has-header">
+    <div class="user-profile">
+      <div class="user-header">
+        <h3>{{model.firstName}} {{model.lastName}}</h3>
+      </div>
+      <ul>
+        <li>
+          <i class="icon ion-ios7-email-outline"></i> {{model.email}}
+          <small>Email</small>
+        </li>
+
+        <li>
+          <i class="icon ion-ios7-telephone-outline"></i> {{model.phoneNumber}}
+          <small>Phone</small>
+        </li>
+
+        <li>
+          <i class="icon ion-ios7-calendar-outline"></i> {{model.birthDate}}
+          <small>Date of birth</small>
+        </li>
+      </ul>
+
+    </div>
+
+  </ion-content>
+</ion-view>

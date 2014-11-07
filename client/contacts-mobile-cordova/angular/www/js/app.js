@@ -62,6 +62,16 @@ angular.module('quickstart', [
     }
   })
 
+  .state('app.profile', {
+    url: "/profile/:id",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/profile.html",
+        controller: 'ContactCtrl'
+      }
+    }
+  })
+  
   .state('app.contacts', {
     url: "/contacts",
     views: {
