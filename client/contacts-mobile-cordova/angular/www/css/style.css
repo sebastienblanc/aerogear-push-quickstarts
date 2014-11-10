@@ -85,3 +85,7 @@ a:active .contact-details li {
 #root {
   z-index: 0;  
 }
+
+.nav-title-slide-ios7 .ion-ios7-arrow-back:before {
+  content: none;
+}
