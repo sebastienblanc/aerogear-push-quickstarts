@@ -38,7 +38,7 @@ $content-padding:                 10px !default;
   display: block;
   line-height: 56px;
   height: 56px;
-  bottom: 100px;
+  bottom: 16px;
   right: 16px;
   position: fixed;
   text-align: center;
