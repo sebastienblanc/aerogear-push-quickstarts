@@ -1,4 +1,7 @@
 <ion-view title="{{ model.id == undefined ? 'Add' : 'Edit' }} Contact">
+  <ion-nav-buttons side="right">
+    <button class="button button-clear" ng-click="save(model)" ng-disabled="form.$invalid || !form.$dirty">Save</button>
+  </ion-nav-buttons>
   <ion-nav-buttons side="left">
     <button menu-toggle="left" class="button button-icon icon ion-navicon" ng-show="model.id == undefined"></button>
   </ion-nav-buttons>
@@ -44,16 +47,6 @@
             <span ng-show="form.birthDate.$error.server" class="error">{{form.birthDate.error}}</span>
           </div>
         </label>
-        <div class="row">
-          <div class="col col-33 col-offset-33">
-            <a href="#/app/playlists" class="button button-block">Cancel</a>
-          </div>
-          <div class="col col-33">
-            <button class="button button-block icon-right ion-chevron-right button-calm" ng-click="save(model)" ng-disabled="form.$invalid || !form.$dirty">
-              Save
-            </button>
-          </div>
-        </div>
       </ion-list>
     </form>
   </ion-content>
