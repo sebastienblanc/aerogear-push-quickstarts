@@ -90,10 +90,10 @@
             </div>
         </div>
         <div role="main" class="ui-content">
-            <form id="filter-form-list-page" class="ui-filterable">
+            <form id="filter-form-list-page" class="ui-filterable" onSubmit="return false">
                 <input id="filter-input-list-page" data-type="search">
             </form>
-            <ul data-role="listview" id="contacts-display-listview" class="sortedList" data-autodividers="true" data-input="#filter-input-list-page">
+            <ul data-role="listview" id="contacts-display-listview" class="sortedList" data-autodividers="true" data-input="#filter-input-list-page" data-filter="true">
                 <!-- The list of Contacts gets inserted here.  -->
             </ul>
         </div>
