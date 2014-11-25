@@ -49,6 +49,10 @@ Replace the bundleId with your bundleId (the one associated of your certificate)
 
 If you want to change your bundleId later on, you will still have to run a `cordova platform rm ios` followed by `cordova platform add ios` to change the Xcode project template.
 
+## Register Application with Push Services
+
+For the configuration and registration of Android or iOS Applications with PushServices, please refer to the specific guides for [Android](http://aerogear.org/docs/unifiedpush/aerogear-push-android/)) and [iOS](http://aerogear.org/docs/unifiedpush/aerogear-push-ios/).
+
 ## Change Push Configuration
 
 There are 2 examples for cordova one is build using [jquery mobile](jqm) and one with [angular](angular). The README.md located in these directories will direct you to the settings you'll need to change to setup push notifications.
@@ -69,6 +73,8 @@ Run the application on a device
 ```
 cordova run <android or ios>
 ```
+
+
 
 Application Flow
 ----------------------
