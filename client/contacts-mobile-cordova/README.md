@@ -51,7 +51,7 @@ If you want to change your bundleId later on, you will still have to run a `cord
 
 ## Register Application with Push Services
 
-For the configuration and registration of Android or iOS Applications with PushServices, please refer to the specific guides for [Android](http://aerogear.org/docs/unifiedpush/aerogear-push-android/)) and [iOS](http://aerogear.org/docs/unifiedpush/aerogear-push-ios/).
+For the configuration and registration of Android or iOS Applications with PushServices, please refer to the specific guides for [Android](http://aerogear.org/docs/unifiedpush/aerogear-push-android/) and [iOS](http://aerogear.org/docs/unifiedpush/aerogear-push-ios/).
 
 ## Change Push Configuration
 
